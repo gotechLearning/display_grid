@@ -1,0 +1,84 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid table</title>
+    <style>
+        .container {
+            display: grid;
+            min-width: 1200px;
+            grid-template-columns: repeat(6, 500px);
+            grid-template-rows: repeat(4, 200px);
+            gap: 10px;
+        }
+ .container>* {
+             background-color: lightpink;
+         }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="one">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="two">
+            <p>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="three">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="four">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="five">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="six">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+    </div>
+</body>-->
+
+<!-- </html>  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            /* first way */
+            /* grid-template-rows: 100px 200px;
+            grid-template-columns: 400px 800px; */
+            /* second way */
+            /* grid-template: 100px 200px 100px/ 400px 800px;
+            gap: 5px; */
+            /* third way */
+            grid-template-columns: 200px auto;
+            grid-template-rows: 100px auto;
+        }
+        .grid-container>*{
+            background-color: blueviolet;
+            border: 2px solid gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <!-- <div class="grid-item">5</div>
+        <div class="grid-item">6</div> -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fractional size grid</title>
+   <style>
+     .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 2fr;
+        gap: 10px;
+    }
+    .grid-container>*{
+        background-image: linear-gradient(90deg, orange,purple);
+        border: 3px solid aqua;
+    }
+   
+   </style>
+</head>
+<body>
+    <h1>Fractional Size Grid</h1>
+    <div class="grid-container">
+        <div class="grid-item">1. <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt facere consectetur unde rem corporis voluptas. Dolorum dolore ut at, nobis praesentium assumenda dicta fuga eveniet, quaerat quibusdam ea odit doloremque facilis, eum incidunt expedita.</p></div>
+        <div class="grid-item">2. <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae qui magni accusamus nisi nihil, doloribus minus cumque sequi maxime, nulla animi tempore illum recusandae eligendi ullam fugit labore placeat vel?</p></div>
+        <div class="grid-item">3. <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur optio accusantium voluptatum minima beatae, eaque est porro hic dolorum, ullam facere minus molestias corrupti, illo cum iusto reiciendis perferendis! Magni pariatur placeat explicabo ex!</p></div>
+        <div class="grid-item">4. <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque accusantium reprehenderit, voluptas hic nam iste consequatur fugit laboriosam quas deserunt facilis modi odit architecto porro nisi laudantium corrupti ut culpa maxime aliquid aliquam inventore.</p></div>
+    </div>
+</body>
+</html>
